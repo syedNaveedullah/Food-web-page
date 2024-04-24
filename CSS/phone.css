@@ -1,0 +1,87 @@
+/* Navigation section............................................. */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+
+/* Home section....................................................*/
+#home{
+    height: 400px;
+    padding: 10px 8px;
+}
+
+#home::before{
+    height: 530px;
+}
+
+#home p{
+  font-size: 13px;    
+} 
+
+/* Services section................................................. */
+#service{
+    flex-direction: column;
+}
+
+#service .box img {
+    width: 144px;
+}
+
+#service .box{
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+/* Client section......................................................  */
+#clients{
+    flex-wrap: wrap;
+}
+
+
+
+#clients img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+
+#clients::before{
+     height: 70%;
+     width: 90%;
+ }
+
+
+/* Contact section.....................................................  */
+
+#contact h1::before{
+    height: 7%;
+    width: 130px;
+    padding: 0px 7px;
+}
+
+#contact-box form{
+    width: 80%;
+}
+
+
+/* Footer section......................................................  */
+
+
+/* Utility classes.......................................................  */
+
+.h-primary{
+    font-size: 26px;
+}
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
